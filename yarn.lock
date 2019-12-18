@@ -1073,6 +1073,13 @@ ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
+amazejs@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/amazejs/-/amazejs-1.0.3.tgz#d62151c93da1a366063258e17bec13b511c3a24e"
+  integrity sha512-U6JprZmnej5fffPlogmBZtRMOJ1rfS7Wlx8YbSdVealxqVFiGp0AhH0O7FRYH0eMhEJJ9SljA4ZPwUfIYQl4Rg==
+  dependencies:
+    priorityjs "^1.1.3"
+
 amphtml-validator@1.0.23:
   version "1.0.23"
   resolved "https://registry.yarnpkg.com/amphtml-validator/-/amphtml-validator-1.0.23.tgz#dba0c3854289563c0adaac292cd4d6096ee4d7c8"
@@ -4409,6 +4416,11 @@ prepend-http@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
+
+priorityjs@^1.1.3:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/priorityjs/-/priorityjs-1.2.1.tgz#51619d51988604619c6bafa086e8c73686aa77c9"
+  integrity sha512-Fgy/oZktcN1pZzKg4B1JGiwuDJIILQq20hErd1sbKqXFR29J33lD9oK85nJXEoIxquLms8HAQW9GjZR5jJGK/g==
 
 private@^0.1.6:
   version "0.1.8"
