@@ -1,0 +1,11 @@
+.theMazeContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
