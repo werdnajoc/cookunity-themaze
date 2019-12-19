@@ -1,27 +1,19 @@
 import React from 'react'
-import Head from 'next/head'
-import Nav from '../components/nav'
 import TheMaze from "../components/themaze/Terrain";
+import Layout from '../layouts/Main'
 
 
 const Home = () => (
-  <div>
-    <Head>
-      <title>Home</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
-
-    <Nav />
-
-    <div className="hero">
-      <h1 className="title">Game</h1>
+    <Layout>
+      <div className="hero">
+        <h1 className="title">Game</h1>
         <br />
         <div className="theMazeContainer">
-            <TheMaze />
+          <TheMaze />
         </div>
-    </div>
+      </div>
 
-    <style jsx>{`
+      <style jsx>{`
       .hero {
         width: 100%;
         color: #333;
@@ -52,7 +44,7 @@ const Home = () => (
         align-items: center;
       }
     `}</style>
-  </div>
+    </Layout>
 )
 
 export default Home
