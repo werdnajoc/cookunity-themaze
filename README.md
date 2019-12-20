@@ -12,7 +12,7 @@ run install with `npm install`.
 run project with `npm start`. run on port **3000**
 
 
-## Online demo in: https://werdnajoc.github.io/cookunity-themaze.github.io/
+## Online demo in: http://andrewortiz.com.ve/
 
 
 ## The maze challenger
