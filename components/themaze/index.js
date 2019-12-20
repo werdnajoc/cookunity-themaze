@@ -212,7 +212,7 @@ class Board extends Component {
                                     y={rowX.y}
                                     isFinish={rowX.isFinish}
                                     isStart={rowX.isStart}
-                                    finishAction={() => {this.props.finishAction();}}
+                                    finishAction={() => {this.props.finishAction(this.state.totalMoves);}}
                                 />
                             ))}
                         </Frag>
