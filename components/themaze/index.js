@@ -161,7 +161,7 @@ class Board extends Component {
     }
 
     animatePath(nodesInShortestPathOrder) {
-        const speedAnimationResolve = (this.props.speedAnimationResolve) ? this.props.speedAnimationResolve : 100;
+        const speedAnimationResolve = (this.props.speedAnimationResolve) ? this.props.speedAnimationResolve : 200;
         for (let i = 0; i < nodesInShortestPathOrder.length; i++) {
             setTimeout(() => {
                 const node = nodesInShortestPathOrder[i];
@@ -212,9 +212,7 @@ class Board extends Component {
                                     y={rowX.y}
                                     isFinish={rowX.isFinish}
                                     isStart={rowX.isStart}
-                                    finishAction={()=> {
-                                        alert("finish");
-                                    }}
+                                    finishAction={() => {this.props.finishAction();}}
                                 />
                             ))}
                         </Frag>
